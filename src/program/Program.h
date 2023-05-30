@@ -12,7 +12,7 @@
 #include "src/core/Scripts.h"
 
 #include "Events.h"
-
+ 
 #define uint64_t unsigned long long
 
 #define LIBRARY(type) std::unordered_map<std::string, type>
