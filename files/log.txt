@@ -1,0 +1,49 @@
+MSZNT LOG FILE.
+
+[INFO] [-------------------]
+[INFO] Entering program init-time.
+[INFO] Initialised logging.
+[INFO] Initialised SDL.
+[INFO] Ran script: 'game/scripts/config.lua'
+[INFO] Initialised renderer.
+[INFO] Created event: 'StartEvent'; Hooked to: 'START'
+[INFO] Ran script: 'game/scripts/main.lua'
+[INFO] Created C event callback: 'YieldTimerCallback'; Hooked to: 'TIMER'
+[INFO] EXECUTING CHUNK 'INIT 0', TYPE 'INIT_BLOCK'
+[INFO] Opened font: 'BodoniModa'; path: 'files/BodoniModa.ttf'
+[INFO] Created variable: 'VarTest' of type 'INTEGER'
+[LUA] Init test 1.
+[INFO] FINISHED EXECUTING CHUNK 'INIT 0', TYPE 'INIT_BLOCK'
+[INFO] EXECUTING CHUNK 'INIT 1', TYPE 'INIT_BLOCK'
+[INFO] Created image: 'SaintMatthew'; path: 'files/images/SaintMatthew.png'
+[INFO] Created audio: 'TitleMusic'; path: 'files/audio/TitleMusic.mp3'
+[INFO] Created music: 'Static'; path: 'files/audio/Static.mp3'
+[LUA] Init test 2.
+[INFO] FINISHED EXECUTING CHUNK 'INIT 1', TYPE 'INIT_BLOCK'
+[INFO] Invoked event: 'StartEvent'
+[INFO] EXECUTING CHUNK 'StartEvent', TYPE 'EVENT'
+[LUA] Called event which is hooked to 'start.'
+[INFO] FINISHED EXECUTING CHUNK 'StartEvent', TYPE 'EVENT'
+[INFO] Initialised program.
+[INFO] Showed window.
+[INFO] [-------------------]
+[INFO] Entered program runtime.
+[INFO] EXECUTING CHUNK 'SPLASHSCREEN', TYPE 'LABEL'
+[LUA] Splashscreen called.
+[INFO] Beginning pause for (2) seconds.
+[INFO] YIELDING CHUNK 'SPLASHSCREEN', TYPE 'LABEL'
+[INFO] YIELDED CHUNK 'SPLASHSCREEN', TYPE 'LABEL'
+[INFO] [-------------------]
+[INFO] Exited program runtime.
+[INFO] Deleted image: 'SaintMatthew'
+[INFO] Deleted music: 'Static'
+[INFO] Deleted audio: 'TitleMusic'
+[INFO] Deleted variable: 'VarTest'
+[INFO] Deleted executable object: 'StartEvent'
+[INFO] Deleted executable object: 'MAIN_MENU'
+[INFO] Deleted executable object: 'SPLASHSCREEN'
+[INFO] Deleted executable object: 'YieldTimerCallback'
+[INFO] Deleted light userdata pointer object.
+[INFO] Deleted light userdata pointer object.
+[INFO] Deleted light userdata pointer object.
+[INFO] Log flushed to file: 'files\log.txt'
